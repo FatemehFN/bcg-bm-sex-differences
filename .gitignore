@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data files (large)
+*.h5
+*.h5ad
+*.rds
+*.RData
+*.mtx.gz
+*.tsv.gz
+*.tar.gz
+
+# Large data directories - do not push
+GSE248728_downloads/
+GSE248730_RAW/
+BCG-humanBM-code/
+
+# R
+.Rhistory
+.RData
+.Rproj.user
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Large output files
+analysis_outputs/*.png
+analysis_outputs/*.pdf
+*.png
+*.pdf
+
+# External repositories (already in subdirectory)
+external/
